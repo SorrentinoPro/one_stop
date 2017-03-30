@@ -39,11 +39,11 @@ Custom HTTP status codes
 
 # How to use:
 
-1) Download one-stop.zip
+1) Download one-stop-master.zip
 
-2) Unzip it and place the errors folder and .htaccess file inside the root directory.(es.--> /public_html  or  /htdocs)
+2) Unzip it and place the /errors folder and .htaccess file inside the root directory.(es.--> /public_html  or  /htdocs)
    If you have already the .htaccess file on your root directory, just add the content of my .htaccess inside yours, 
-   but it is IMPORTANT to paste it before anything else you already have, in short from Line #1.
+   but it is IMPORTANT to paste it before anything else you already have inside .htaccess, in short from Line #1.
    
 3) Navigate to yoursite.com/errors
 
