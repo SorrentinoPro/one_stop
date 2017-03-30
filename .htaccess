@@ -1,0 +1,149 @@
+
+#==========================================\
+##  Available Error Codes                  |
+#                                          |
+#    100 - Continue                        |
+#    101 - Switching Protocols             |
+#                                          |
+#Successful                                |
+#                                          |    
+#    200 - OK                              |
+#    201 - Created                         |
+#    202 - Accepted                        | 
+#    203 - Non-Authoritative Information   |
+#    204 - No Content                      |
+#    205 - Reset Content                   |
+#    206 - Partial Content                 |
+#                                          |
+#Redirection                               |
+#                                          |
+#    300 - Multiple Choices                |
+#    301 - Moved Permanently               |
+#    302 - Found                           |
+#    303 - See Other                       |
+#    304 - Not Modified                    |
+#    305 - Use Proxy                       |
+#    307 - Temporary Redirect              |
+#                                          |
+#Client Error                              |
+#                                          |
+#    400 - Bad Request                     |
+#    401 - Unauthorized                    |
+#    402 - Payment Required                |
+#    403 - Forbidden                       |
+#    404 - Not Found                       |
+#    405 - Method Not Allowed              |
+#    406 - Not Acceptable                  |
+#    407 - Proxy Authentication Required   |
+#    408 - Request Timeout                 |
+#    409 - Conflict                        |
+#    410 - Gone                            |
+#    411 - Length Required                 |
+#    412 - Precondition Failed             |
+#    413 - Request Entity Too Large        |
+#    414 - Request-URI Too Long            |
+#    415 - Unsupported Media Type          |
+#    416 - Requested Range Not Satisfiable |
+#    417 - Expectation Failed              |
+#                                          |
+#Server Error                              |
+#                                          |
+#    500 - Internal Server Error           |
+#    501 - Not Implemented                 |
+#    502 - Bad Gateway                     |
+#    503 - Service Unavailable             |
+#    504 - Gateway Timeout                 |
+#    505 - HTTP Version Not Supported      |
+#==========================================|
+##  Start Errors Handling                  |
+#                                          |  
+ErrorDocument 100 /errors/100.php       
+#                                          |
+ErrorDocument 101 /errors/206.php       
+#                                          |
+ErrorDocument 200 /errors/200.php  
+#                                          |
+ErrorDocument 201 /errors/201.php  
+#                                          |
+ErrorDocument 202 /errors/202.php       
+#                                          |
+ErrorDocument 203 /errors/203.php       
+#                                          |
+ErrorDocument 204 /errors/204.php       
+#                                          |
+ErrorDocument 205 /errors/205.php       
+#                                          |
+ErrorDocument 206 /errors/206.php       
+#                                          |
+ErrorDocument 300 /errors/300.php       
+#                                          |
+ErrorDocument 301 /errors/301.php       
+#                                          | 
+ErrorDocument 302 /errors/302.php       
+#                                          |
+ErrorDocument 303 /errors/303.php       
+#                                          |
+ErrorDocument 304 /errors/304.php       
+#                                          |
+ErrorDocument 305 /errors/305.php       
+#                                          |
+ErrorDocument 307 /errors/307.php       
+#                                          |
+ErrorDocument 400 /errors/400.php       
+#                                          |
+ErrorDocument 401 /errors/401.php       
+#                                          |
+ErrorDocument 402 /errors/402.php       
+#                                          |
+ErrorDocument 403 /errors/403.php       
+#                                          |
+ErrorDocument 404 /errors/404.php       
+#                                          |
+ErrorDocument 405 /errors/405.php       
+#                                          |
+ErrorDocument 406 /errors/406.php       
+#                                          |
+ErrorDocument 407 /errors/407.php       
+#                                          |
+ErrorDocument 408 /errors/408.php       
+#                                          |
+ErrorDocument 409 /errors/409.php       
+#                                          |
+ErrorDocument 410 /errors/410.php       
+#                                          |
+ErrorDocument 411 /errors/411.php       
+#                                          |
+ErrorDocument 412 /errors/412.php       
+#                                          |
+ErrorDocument 413 /errors/413.php       
+#                                          |
+ErrorDocument 414 /errors/414.php       
+#                                          |
+ErrorDocument 415 /errors/415.php       
+#                                          |
+ErrorDocument 416 /errors/416.php       
+#                                          |
+ErrorDocument 417 /errors/417.php       
+#                                          |
+ErrorDocument 500 /errors/500.php       
+#                                          |
+ErrorDocument 501 /errors/501.php       
+#                                          |
+ErrorDocument 502 /errors/502.php       
+#                                          |
+ErrorDocument 503 /errors/503.php       
+#                                          |
+ErrorDocument 504 /errors/504.php       
+#                                          |
+ErrorDocument 505 /errors/505.php       
+#                                          |
+##  End Errors Handling                    |
+##=========================================|
+#   After you are Done With Settings,      |
+#   For Security UNCOMMENT The Next Line!  |
+##=========================================|
+#                                          |
+#Redirect /errors/index.php /errors/404.php  
+#                                          |
+##=========================================|
+#==========================================/
