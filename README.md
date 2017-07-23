@@ -54,4 +54,4 @@ Custom HTTP status codes
 5) Once you finished to setup your Custom errors pages, open the .htaccess again and UNCOMMENT the last line at end of my script,
    to make sure none else can modify your custom pages or mess up your configuration.
    After that, as anyone else, you will not be able access the interface and in case you will need to change anything else, 
-   COMMENT again that line and you will be able to access your configuration panel again.
+   COMMENT again that line and you will be able to access your configuration panel successfully.
