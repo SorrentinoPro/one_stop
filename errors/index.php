@@ -29,7 +29,6 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
 		<link href="/errors/css/errors.css"           rel="stylesheet">
 		<link href="/errors/css/font-awesome.min.css" rel="stylesheet" media="screen">
-		<link href="/errors/css/bootstrap.min.css"    rel="stylesheet">
 		<link href="/errors/img/ico/favicon.gif"      rel="shortcut icon" >
         <link href="/errors/img/ico/144.png"          rel="apple-touch-icon-precomposed" sizes="144x144" >
         <link href="/errors/img/ico/114.png"          rel="apple-touch-icon-precomposed" sizes="114x114" >
@@ -86,15 +85,15 @@
 								<option class = "Email_Address" value = "Email_Address"><?php echo $lang['CONTACT_METHOD_3'];?></option>
 							</select>
 							<br>
-							<br>
-							<label class = "email-f" ><?php echo $lang['FORM_PATH'];?><br>
-								<div style="display:ruby;">
+							
+							<label class = "email-f"><?php echo $lang['FORM_PATH'];?><br>
+								<div>
 									<p class = "http" >http:// </p> 
 									<p class = "https" >https:// </p> 
 									<input id = "mail_f" name="mail_f" type="text" placeholder="example.com/#contact_us" />
 								</div>
 							</label>
-							<label class="email-a"><?php echo $lang['CONTACT_METHOD_3'];?><br>
+							<label class = "email-a"><?php echo $lang['CONTACT_METHOD_3'];?><br>
 								<input id="mail_a" name="mail_a" type="text" placeholder="my@email.com" />
 							</label>
 							
@@ -105,7 +104,7 @@
 							<h3 style="float:right;">[ <font style="color:#beff6d;">2</font> ]_</h3><h3><?php echo $lang['SITE_URL'];?>: </h3>
 							
 							<label>
-								<div style="display:ruby;">
+								<div>
 									<p class = "http" >http:// </p> 
 									<p class = "https" >https:// </p>   
 									<input id="url" name="url" type="text" placeholder="example.com" required />
@@ -2587,7 +2586,7 @@
 		
 		<footer class="footer">
 			
-			<p class="p-cpr"><a href="<?php echo $cpr_l; ?>"><?php echo $cpr_n; ?></a></p>
+			<p class="p-cpr" ><a style='color:#fff;' href="<?php echo $cpr_l; ?>"><?php echo $cpr_n; ?></a></p>
 			
 		</footer>
 		<!-- div showing error message for /errors folder -->
@@ -2608,7 +2607,6 @@
 		</div>
 		
 		<script type="text/javascript" src="/errors/js/jquery.js"></script>	
-		<script type="text/javascript" src="/errors/js/bootstrap.min.js"></script>	
 		<script type="text/javascript"  src="/errors/js/errors.js"></script>	
 	</body>
 </html>																			

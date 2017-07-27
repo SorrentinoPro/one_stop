@@ -23,11 +23,7 @@ $(window).load(function(){
 	$('#preloader').fadeOut('slow',function(){$(this).remove();});
 });
 
-});
-
 //===========\ Off-canvas functions /===============================\\
-
-jQuery( document ).ready(function( $ ) {
 	
 	$(".e-top-right").click(function(event){ 
 		$(".e-top-right").toggleClass("active");
@@ -55,40 +51,42 @@ jQuery( document ).ready(function( $ ) {
 		$(".e-top-right").removeClass("active");
 		$(".poster").removeClass("off");
 	});	
-});	
+
 
 //=========\ Select options /======================================\\ 
-
-jQuery( document ).ready(function( $ ) {
-        
-		$('option.hid1').click( function(){
+    $('select.SSL_v').change(function(){
+		var OptionSSL = $(this).val();
+		if(OptionSSL == '' ){
 			$('.http').removeClass("on");
 			$('.https').removeClass("on");
-		});
-		$('.no').click( function(){
+		}
+		if(OptionSSL == 'http' ){
 			$('.http').addClass("on");
 			$('.https').removeClass("on");
-		});
-	    $('option.yes').click( function(){
+		}
+		if(OptionSSL == 'https' ){
 			$('.http').removeClass("on");
 			$('.https').addClass("on");
-		});	
-});
+		}
+		
+	});
+     
+	$('select.cont').change(function(){
+		var OptionMail = $(this).val();
+		if(OptionMail == '' ){
+			$('.email-f').removeClass("on");
+			$('.email-a').removeClass("on");
+		}
+		if(OptionMail == 'Contact_Form' ){
+			$('.email-f').addClass("on");
+			$('.email-a').removeClass("on");
+		}
+		if(OptionMail == 'Email_Address' ){
+			$('.email-f').removeClass("on");
+			$('.email-a').addClass("on");
+		}
+	});
 
-jQuery( document ).ready(function( $ ) {
-        
-		$('.hid2').click( function(){
-			$('.email-f').removeClass("on");
-			$('.email-a').removeClass("on");
-		});	
-		$('.Contact_Form').click( function(){
-			$('.email-f').toggleClass("on");
-			$('.email-a').removeClass("on");
-		});	
-	    $('.Email_Address').click( function(){
-			$('.email-f').removeClass("on");
-			$('.email-a').toggleClass("on");
-		});	
 });
 
 //=========\ Success Message /======================================\\ 

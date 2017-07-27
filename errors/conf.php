@@ -1697,7 +1697,13 @@
 		$bk_100 = $_POST['bk_100']; 
 		fwrite($css_100, $cl_100);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/100.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_100, $txt);
 	fclose($css_100);
 	}
@@ -1713,7 +1719,13 @@
 		$bk_101 = $_POST['bk_101']; 
 		fwrite($css_101, $cl_101);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/101.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_101, $txt);
 	fclose($css_101);
 	}
@@ -1729,7 +1741,13 @@
 		$bk_200 = $_POST['bk_200']; 
 		fwrite($css_200, $cl_200);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/200.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_200, $txt);
 	fclose($css_200);
 	}
@@ -1745,7 +1763,13 @@
 		$bk_201 = $_POST['bk_201']; 
 		fwrite($css_201, $cl_201);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/201.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_201, $txt);
 	fclose($css_201);
 	}
@@ -1761,7 +1785,13 @@
 		$bk_202 = $_POST['bk_202']; 
 		fwrite($css_202, $cl_202);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/202.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_202, $txt);
 	fclose($css_202);
 	}
@@ -1777,7 +1807,13 @@
 		$bk_203 = $_POST['bk_203']; 
 		fwrite($css_203, $cl_203);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/203.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_203, $txt);
 	fclose($css_203);
 	}
@@ -1793,7 +1829,13 @@
 		$bk_204 = $_POST['bk_204']; 
 		fwrite($css_204, $cl_204);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/204.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_204, $txt);
 	fclose($css_204);
 	}
@@ -1809,7 +1851,13 @@
 		$bk_205 = $_POST['bk_205']; 
 		fwrite($css_205, $cl_205);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/205.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_205, $txt);
 	fclose($css_205);
 	}
@@ -1825,7 +1873,13 @@
 		$bk_206 = $_POST['bk_206']; 
 		fwrite($css_206, $cl_206);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/206.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_206, $txt);
 	fclose($css_206);
 	}
@@ -1841,7 +1895,13 @@
 		$bk_300 = $_POST['bk_300']; 
 		fwrite($css_300, $cl_300);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/300.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_300, $txt);
 	fclose($css_300);
 	}
@@ -1857,7 +1917,13 @@
 		$bk_301 = $_POST['bk_301']; 
 		fwrite($css_301, $cl_301);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/301.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_301, $txt);
 	fclose($css_301);
 	}
@@ -1873,7 +1939,13 @@
 		$bk_302 = $_POST['bk_302']; 
 		fwrite($css_302, $cl_302);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/302.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_302, $txt);
 	fclose($css_302);
 	}
@@ -1889,7 +1961,13 @@
 		$bk_303 = $_POST['bk_303']; 
 		fwrite($css_303, $cl_303);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/303.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_303, $txt);
 	fclose($css_303);
 	}
@@ -1905,7 +1983,13 @@
 		$bk_304 = $_POST['bk_304']; 
 		fwrite($css_304, $cl_304);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/304.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_304, $txt);
 	fclose($css_304);
 	}
@@ -1921,7 +2005,13 @@
 		$bk_305 = $_POST['bk_305']; 
 		fwrite($css_305, $cl_305);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/305.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_305, $txt);
 	fclose($css_305);
 	}
@@ -1937,7 +2027,13 @@
 		$bk_307 = $_POST['bk_307']; 
 		fwrite($css_307, $cl_307);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/307.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_307, $txt);
 	fclose($css_307);
 	}
@@ -1953,7 +2049,13 @@
 		$bk_400 = $_POST['bk_400']; 
 		fwrite($css_400, $cl_400);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/400.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_400, $txt);
 	fclose($css_400);
 	}
@@ -1969,7 +2071,13 @@
 		$bk_401 = $_POST['bk_401']; 
 		fwrite($css_401, $cl_401);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/401.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_401, $txt);
 	fclose($css_401);
 	}
@@ -1985,7 +2093,13 @@
 		$bk_402 = $_POST['bk_402']; 
 		fwrite($css_402, $cl_402);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/402.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_402, $txt);
 	fclose($css_402);
 	}
@@ -2001,7 +2115,13 @@
 		$bk_403 = $_POST['bk_403']; 
 		fwrite($css_403, $cl_403);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/403.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_403, $txt);
 	fclose($css_403);
 	}
@@ -2017,7 +2137,13 @@
 		$bk_404 = $_POST['bk_404']; 
 		fwrite($css_404, $cl_404);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/404.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_404, $txt);
 	fclose($css_404);
 	}
@@ -2033,7 +2159,13 @@
 		$bk_405 = $_POST['bk_405']; 
 		fwrite($css_405, $cl_405);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/405.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_405, $txt);
 	fclose($css_405);
 	}
@@ -2049,7 +2181,13 @@
 		$bk_406 = $_POST['bk_406']; 
 		fwrite($css_406, $cl_406);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/406.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_406, $txt);
 	fclose($css_406);
 	}
@@ -2065,7 +2203,13 @@
 		$bk_407 = $_POST['bk_407']; 
 		fwrite($css_407, $cl_407);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/407.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_407, $txt);
 	fclose($css_407);
 	}
@@ -2081,7 +2225,13 @@
 		$bk_408 = $_POST['bk_408']; 
 		fwrite($css_408, $cl_408);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/408.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_408, $txt);
 	fclose($css_408);
 	}
@@ -2097,7 +2247,13 @@
 		$bk_409 = $_POST['bk_409']; 
 		fwrite($css_409, $cl_409);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/409.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_409, $txt);
 	fclose($css_409);
 	}
@@ -2113,7 +2269,13 @@
 		$bk_410 = $_POST['bk_410']; 
 		fwrite($css_410, $cl_410);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/410.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_410, $txt);
 	fclose($css_410);
 	}
@@ -2129,7 +2291,13 @@
 		$bk_411 = $_POST['bk_411']; 
 		fwrite($css_411, $cl_411);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/411.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_411, $txt);
 	fclose($css_411);
 	}
@@ -2145,7 +2313,13 @@
 		$bk_412 = $_POST['bk_412']; 
 		fwrite($css_412, $cl_412);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/412.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_412, $txt);
 	fclose($css_412);
 	}
@@ -2161,7 +2335,13 @@
 		$bk_413 = $_POST['bk_413']; 
 		fwrite($css_413, $cl_413);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/413.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_413, $txt);
 	fclose($css_413);
 	}
@@ -2177,7 +2357,13 @@
 		$bk_414 = $_POST['bk_414']; 
 		fwrite($css_414, $cl_414);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/414.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_414, $txt);
 	fclose($css_414);
 	}
@@ -2193,7 +2379,13 @@
 		$bk_415 = $_POST['bk_415']; 
 		fwrite($css_415, $cl_415);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/415.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_415, $txt);
 	fclose($css_415);
 	}
@@ -2209,7 +2401,13 @@
 		$bk_416 = $_POST['bk_416']; 
 		fwrite($css_416, $cl_416);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/416.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_416, $txt);
 	fclose($css_416);
 	}
@@ -2225,7 +2423,13 @@
 		$bk_417 = $_POST['bk_417']; 
 		fwrite($css_417, $cl_417);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/417.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_417, $txt);
 	fclose($css_417);
 	}
@@ -2241,7 +2445,13 @@
 		$bk_500 = $_POST['bk_500']; 
 		fwrite($css_500, $cl_500);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/500.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_500, $txt);
 	fclose($css_500);
 	}
@@ -2257,7 +2467,13 @@
 		$bk_501 = $_POST['bk_501']; 
 		fwrite($css_501, $cl_501);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/501.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_501, $txt);
 	fclose($css_501);
 	}
@@ -2273,7 +2489,13 @@
 		$bk_502 = $_POST['bk_502']; 
 		fwrite($css_502, $cl_502);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/502.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_502, $txt);
 	fclose($css_502);
 	}
@@ -2289,7 +2511,13 @@
 		$bk_503 = $_POST['bk_503']; 
 		fwrite($css_503, $cl_503);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/503.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_503, $txt);
 	fclose($css_503);
 	}
@@ -2305,7 +2533,13 @@
 		$bk_504 = $_POST['bk_504']; 
 		fwrite($css_504, $cl_504);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/504.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_504, $txt);
 	fclose($css_504);
 	}
@@ -2321,7 +2555,13 @@
 		$bk_505 = $_POST['bk_505']; 
 		fwrite($css_505, $cl_505);
 	}
-	$txt = ';}';
+	$txt = ';
+	background-attachment: fixed;
+    background-image: url("/errors/img/bk/505.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    }';
 	fwrite($css_505, $txt);
 	fclose($css_505);
 	}
