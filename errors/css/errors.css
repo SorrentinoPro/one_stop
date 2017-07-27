@@ -17,12 +17,11 @@
 	|      along with this program.  If not, see <http://www.gnu.org/licenses/>.|
 ----\--------------------------------------------------------------------------*/
 
-*::-webkit-scrollbar{display: none;}
 * { box-sizing: border-box;}
 *::after, *::before {
     box-sizing: border-box;
 }
-.on{display:block!important;}
+.on{display:inline-block!important;}
 html {
     font-size: 10px;
     font-family: sans-serif;
@@ -54,7 +53,7 @@ a{text-decoration: none;}
 a:hover, a:focus{color:#ff4c4d;}
 select{
 	width:200px;
-    height: 40px;
+    height: auto;
 	border-radius:5px;
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
@@ -65,12 +64,12 @@ select{
 }
 option{
 	overflow: hidden;
-	height:30px;
+	height:auto;
 	text-align:center;
 	cursor: pointer;
 }
 input{
-    height: 40px;
+    height: auto;
     width: 200px;
 	color: #333 !important;
 	border-radius:5px;
@@ -134,13 +133,16 @@ hr{
 }
 #cross-fixer {overflow: hidden;}
 .contain{ 
-    border-bottom: 40px solid transparent;
+    border-bottom: 29px solid transparent;
     height: 100%;
     overflow: auto;
 	position: absolute;
+	top:0;
+	left:0;
 	}
 .cont-foot{
 	bottom: 0;
+	left: 0;
     margin: 0 auto;
     position: absolute;
     text-align: center;
@@ -154,13 +156,12 @@ hr{
     position: relative!important;
     width: 227px!important;
 }
-.footer{
+.footer {
     background: #333333 none repeat scroll 0 0;
-    bottom: 0;
-    height: 40px;
-    padding: 12px;
+    bottom: -12px;
     position: absolute;
     width: 100%;
+	left: 0;
 }
 
 #conf_success{
@@ -485,3 +486,88 @@ hr{
 	-webkit-transition: all 0.15s ease 0s;
     -moz-transition: all 0.15s ease 0s;
 }
+/*=======================================================================
+.poster{
+	bottom: 0;
+	margin: 0 auto;
+    height: auto;
+    left: 0;
+    max-height: 100%;
+    max-width: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: auto;
+	transition: all 0.15s ease 0s;
+	-webkit-transition: all 0.15s ease 0s;
+    -moz-transition: all 0.15s ease 0s;
+	animation: 13s ease 0s normal none infinite running sam;
+}
+
+@-webkit-keyframes sam {
+    0%{
+	transform: matrix(1.2,0,0,1.2,0,0);
+	-webkit-transform: transform: scale(1);
+	-moz-transform: transform: scale(1);
+	-ms-transform: transform: scale(1);
+	-o-transform: transform: scale(1);
+    transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	}
+    50%{	
+	transform: transform: scale(1.1);
+	-webkit-transform: transform: scale(1.1);
+	-moz-transform: transform: scale(1.1);
+	-ms-transform: transform: scale(1.1);
+	-o-transform: transform: scale(1.1);
+    transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	}
+    
+    100% {	
+	transform: transform: scale(1.1);
+	-webkit-transform: transform: scale(1);
+	-moz-transform: transform: scale(1);
+	-ms-transform: transform: scale(1);
+	-o-transform: transform: scale(1);
+    transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	}
+}
+@keyframes sam{
+    0%{
+	transform: matrix(1.2,0,0,1.2,0,0);
+	-webkit-transform: transform: scale(1);
+	-moz-transform: transform: scale(1);
+	-ms-transform: transform: scale(1);
+	-o-transform: transform: scale(1);
+    transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	}
+    50%{	
+	transform: transform: scale(1.1);
+	-webkit-transform: transform: scale(1.1);
+	-moz-transform: transform: scale(1.1);
+	-ms-transform: transform: scale(1.1);
+	-o-transform: transform: scale(1.1);
+    transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	}
+    
+    100% {	
+	transform: transform: scale(1);
+	-webkit-transform: transform: scale(1);
+	-moz-transform: transform: scale(1);
+	-ms-transform: transform: scale(1);
+	-o-transform: transform: scale(1);
+    transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	}
+}
+=======================================================================*/
